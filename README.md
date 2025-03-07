@@ -1,11 +1,3 @@
-<style>
-    .image_inserts{
-        display:flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items:center;
-    }
-</style>
 # Introduction to Software Testing
 
 The Link to the video playlist is [here](https://youtube.com/playlist?list=PLUDwpEzHYYLseflPNg0bUKfLmAbO2JnE9&si=rkRZTPaV8q_7f4Jl).  
@@ -155,7 +147,7 @@ This usually happens in different phases.
 A traditional model, also called *Linear Model*. Not in use now.  
 Documentation plays a key role in the entire process. Each and everything must be well documented.  
 
-<img src='https://th.bing.com/th/id/OIP.nLzaXlAKLUGS16SCt_5V3AHaEK?rs=1&pid=ImgDetMain' alt='Waterfall model image' className='image_inserts'>
+<img src='https://th.bing.com/th/id/OIP.nLzaXlAKLUGS16SCt_5V3AHaEK?rs=1&pid=ImgDetMain' alt='Waterfall model image' style="width:100%;">
 
 Once the product owners gather all the requirements, they create **S**oftware **R**equirements **S**pecifications (**SRS**) document.  
 
@@ -180,7 +172,7 @@ Once the testing phase is completed, the model is then deployed into the custome
 ### Spiral Model
 
 Also called iterative model.
-<img src='https://artoftesting.com/wp-content/uploads/2020/01/spiral.jpg' alt='Spiral model image' class='image_inserts'>
+<img src='https://artoftesting.com/wp-content/uploads/2020/01/spiral.jpg' alt='Spiral model image' style="width:100%;">
 
 Goes through multiple levels of iterations, so that there is some level of free space to change requirements.
 
@@ -211,7 +203,7 @@ Software will be released in multiple versions which is why it is also called ve
 
 Also called VV-Model (*Verification & Validation Model*).  
 Here, the software is divided into multiple smaller sections (*modules*) which are developed independantly and therefore can be tested individually as well.  
-<img src='https://th.bing.com/th/id/R.a50335907cd6aadefb31b79e5bbca38f?rik=AM7vXqLZ3NYs6Q&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fb%2fb6%2fV-model-en.png&ehk=aFIMpAkcETOXbkH2i4QQ41jqClkq5zQxnzj8XPqkCM4%3d&risl=&pid=ImgRaw&r=0' alt='V model image' class='image_inserts'>
+<img src='https://th.bing.com/th/id/R.a50335907cd6aadefb31b79e5bbca38f?rik=AM7vXqLZ3NYs6Q&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fb%2fb6%2fV-model-en.png&ehk=aFIMpAkcETOXbkH2i4QQ41jqClkq5zQxnzj8XPqkCM4%3d&risl=&pid=ImgRaw&r=0' alt='V model image' style="width:100%;">
 
 The speciality of V-Model is that testing is conducted in every phase of software development. The processes are split into 2 parts, Verification and Validation.
 
