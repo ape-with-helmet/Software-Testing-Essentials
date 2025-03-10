@@ -10,6 +10,9 @@
 - [Writing Test cases, Reviews & RTM](#writing-test-cases-reviews--rtm)
 - [Environment Setup & Build deployment](#environment-setup--build-deployment)
 - [Test Execution](#test-execution)
+- [Bug reporting & Tracking](#bug-reporting--tracking)
+- [Sanity Testing, Re-testing & Regression testing](#sanity-testing-re-testing--regression-testing)
+- [Test Sign Off](#test-sign-off)
 
 ## Project Introduction
 
@@ -290,3 +293,18 @@ It is important to stick to the test plan during execution.
 Make a copy of your test cases so that it can be used to execute test cases and fill the Actual result, result and comment sections. Also add a new sheet called Bugs where all the bugs are compiled along with the details.
 
 To execute the test cases, just follow the steps and check if the expected results match what you are seeing and experiencing.
+## Bug reporting & Tracking
+Once a bug is found, it must be documented and must be sent to the developer so that it can be fixed. The bug must be opened and closed by the tester themselves. Once the developer fixes the bug and the bug no longer exists, the tester will close the bug.
+
+## Sanity Testing, Re-testing & Regression testing
+
+Everytime a bug is **fixed**, new functionality is **added** or **deleted**, we should execute all the test cases again (*Regression Testing*)
+
+Every time a new build is created, it must undergo sanity testing.
+
+Once the bug is reported, we should track the bug until the bug is closed 😀. The bug is closed only when it is fixed. 
+
+If the bug is fixed by the developer, it must then be re-tested to check for the bug's existence.
+
+## Test Sign Off
+Once all the processes are done, then the entire team meets and decides if the build is ready for production/UAT. Once there is agreement, the test is officially completed and sent off for UAT and production.
