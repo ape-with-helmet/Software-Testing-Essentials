@@ -283,6 +283,10 @@ To view the tables, go back to [phpmyadmin](http://localhost/phpmyadmin) and ope
 
 The installation itself can be a form of smoke testing which if failed, the developer must deliver another build.
 
-## Test Execution
-<iframe width="1536" height="960" src="https://www.youtube.com/embed/SB0g8wkPz9o?list=PLUDwpEzHYYLseflPNg0bUKfLmAbO2JnE9" title="Manual Software Testing LIVE Project Part-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width:100%"></iframe>
+## Test Execution 
+[Video Link](https://youtu.be/SB0g8wkPz9o?list=PLUDwpEzHYYLseflPNg0bUKfLmAbO2JnE9)  
 It is important to stick to the test plan during execution.
+
+Make a copy of your test cases so that it can be used to execute test cases and fill the Actual result, result and comment sections. Also add a new sheet called Bugs where all the bugs are compiled along with the details.
+
+To execute the test cases, just follow the steps and check if the expected results match what you are seeing and experiencing.
