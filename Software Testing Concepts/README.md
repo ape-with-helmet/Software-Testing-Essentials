@@ -501,7 +501,7 @@ Testing conducts on modified build to make sure there will not be impact on exis
     - Build 1.1 was released, now testing the defects 1.0.1 & 1.0.2 in this build is re-testing.
 
 ## Smoke & Sanity Testing
-Smoke and Sanity testing come into the picture after build release.
+[Smoke](https://www.geeksforgeeks.org/smoke-testing-software-testing/) and [Sanity](https://www.geeksforgeeks.org/sanity-testing/) testing come into the picture after build release.
 <table>
     <tr>
         <th>Smoke Testing</th>
@@ -1549,4 +1549,3 @@ Here are some of the most important metrics used to evaluate test effectivity.
 1. Testing is context based. Which means what types of testing should be conducted must be based on type of application.
 1. We should follow the concept of [Pesticide Paradox](https://katalon.com/resources-center/blog/pesticide-paradox-in-software-testing). If we are executing same test cases for longer runs, we wont find any defects. We have to update test cases in every cycle/release in order to find more defects
 1. We should follow [defect clustering](https://www.geeksforgeeks.org/overview-of-defect-clustering/). Which means that some of the modules contains most of the defects. By experience, we can identify such risky modules. 80% of the problems are found in 20% of the modules
-***
