@@ -6,6 +6,9 @@
     - [Scrum Terminology](#scrum-terminology)
     - [Scrum Board](#scrum-board)
     - [Definition of Ready (DoR) & Definition of Done (DoD)](#definition-of-ready-dor--definition-of-done-dod)
+    - [Product Backlog Example](#product-backlog-example)
+    - [Sprint Planning Example](#sprint-planning-example)
+    - [Tasks Example](#tasks-example)
 
 ## Agile model/ Agile methodology/ Agile process
 Agile is an Iterative and Incremental Approach.
@@ -93,3 +96,186 @@ Scrum includes a group of people called as scrum team. Normally consists of 5-9 
 - Any build/deployment/configuration changes are implemented/documented/communicated
 - Relevant documentation/diagrams produced and/or updated
 - Remaining hours for task set to zero and task closed
+
+### Product Backlog Example
+<table>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Client</th>
+        <td style="border:1px solid;">OpenCart</td>
+    </tr>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Created By</th>
+        <td style="border:1px solid;">PO name</td>
+    </tr>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Creation Date</th>
+        <td style="border:1px solid;">DD/MM/YYYY</td>
+    </tr>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Approval Date</th>
+        <td style="border:1px solid;">DD/MM/YYYY</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Epic</th>
+        <th style="background-color:green; border: 1px solid;">User Story ID</th>
+        <th style="background-color:green; border: 1px solid;">Feature/Title</th>
+        <th style="background-color:green; border: 1px solid;">User Story</th>
+        <th style="background-color:green; border: 1px solid;">Status</th>
+        <th style="background-color:green; border: 1px solid;">Acceptance Criteria</th>
+    </tr>
+    <tr>
+        <td style="border-left:1px solid; border-right:1px solid; border-top:1px solid; border-bottom:None;"><span style="color:red;">OpenCart_Epic_001:</span><br>For a new e-commerce  website to launch, the highest business value will be when a new user is able to buy an item from the website.</td>
+        <td style="border:1px solid;">US001</td>
+        <td style="border:1px solid;">Registration</td>
+        <td style="border:1px solid;">As a First time visitor to the e-commerce website,<br>I want to register my account<br>So that i can login to application</td>
+        <td style="border:1px solid;">New</td>
+        <td style="border:1px solid;">New user should be able to register account with valid data.</td>
+    </tr>
+    <tr>
+        <td style="border-left:1px solid; border-right:1px solid; border-top:None; border-bottom:None;"></td>
+        <td style="border:1px solid;">US002</td>
+        <td style="border:1px solid;">Login</td>
+        <td style="border:1px solid;">As a registered user,<br>I want to login to the website<br>So that i can see my account details etc.</td>
+        <td style="border:1px solid;">New</td>
+        <td style="border:1px solid;">System must validate user credentials and allow login if credentials are correct</td>
+    </tr>
+    <tr>
+        <td style="border-left:1px solid; border-right:1px solid; border-top:None; border-bottom:None;"></td>
+        <td style="border:1px solid;">US003</td>
+        <td style="border:1px solid;">Logout</td>
+        <td style="border:1px solid;">As a registered user,<br>I want to logout to the website<br>So that nobody else can access my account.</td>
+        <td style="border:1px solid;">New</td>
+        <td style="border:1px solid;">System must logout after login</td>
+    </tr>
+    <tr>
+        <td style="border-left:1px solid; border-right:1px solid; border-top:None; border-bottom:1px solid;"></td>
+        <td style="border:1px solid;">US004</td>
+        <td style="border:1px solid;">User search products</td>
+        <td style="border:1px solid;">As a user,<br>I want to be able to search items,<br>So that I can add them to cart and do payment</td>
+        <td style="border:1px solid;">New</td>
+        <td style="border:1px solid;">User should be able to search products and add them to cart</td>
+    </tr>
+</table>
+
+### Sprint Planning Example
+<table>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Project Name</th>
+        <td style="border:1px solid;">OpenCart (FrontEnd)</td>
+    </tr>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Client</th>
+        <td style="border:1px solid;">OpenCart</td>
+    </tr>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Created By</th>
+        <td style="border:1px solid;">Scrum Master name</td>
+    </tr>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Attendees</th>
+        <td style="border:1px solid;">Scrum Team</td>
+    </tr>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Creation Date</th>
+        <td style="border:1px solid;">DD/MM/YYYY</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th style="background-color:green; border: 1px solid;">Epic</th>
+        <th style="background-color:green; border: 1px solid;">User Story ID</th>
+        <th style="background-color:green; border: 1px solid;">Feature/Title</th>
+        <th style="background-color:green; border: 1px solid;">User Story</th>
+        <th style="background-color:green; border: 1px solid;">Story Points</th>
+        <th style="background-color:green; border: 1px solid;">Sprint</th>
+    </tr>
+    <tr>
+        <td style="border-left:1px solid; border-right:1px solid; border-top:1px solid; border-bottom:None;"><span style="color:red;">OpenCart_Epic_001:</span><br>For a new e-commerce  website to launch, the highest business value will be when a new user is able to buy an item from the website.</td>
+        <td style="border:1px solid;">US001</td>
+        <td style="border:1px solid;">Registration</td>
+        <td style="border:1px solid;">As a First time visitor to the e-commerce website,<br>I want to register my account<br>So that i can login to application</td>
+        <td style="border:1px solid;">8</td>
+        <td style="border:1px solid;">1</td>
+    </tr>
+    <tr>
+        <td style="border-left:1px solid; border-right:1px solid; border-top:None; border-bottom:None;"></td>
+        <td style="border:1px solid;">US002</td>
+        <td style="border:1px solid;">Login</td>
+        <td style="border:1px solid;">As a registered user,<br>I want to login to the website<br>So that i can see my account details etc.</td>
+        <td style="border:1px solid;">5</td>
+        <td style="border:1px solid;">1</td>
+    </tr>
+    <tr>
+        <td style="border-left:1px solid; border-right:1px solid; border-top:None; border-bottom:None;"></td>
+        <td style="border:1px solid;">US003</td>
+        <td style="border:1px solid;">Logout</td>
+        <td style="border:1px solid;">As a registered user,<br>I want to logout to the website<br>So that nobody else can access my account.</td>
+        <td style="border:1px solid;">3</td>
+        <td style="border:1px solid;">1</td>
+    </tr>
+    <tr>
+        <td style="border-left:1px solid; border-right:1px solid; border-top:None; border-bottom:1px solid;"></td>
+        <td style="border:1px solid;">US004</td>
+        <td style="border:1px solid;">User search products</td>
+        <td style="border:1px solid;">As a user,<br>I want to be able to search items,<br>So that I can add them to cart and do payment</td>
+        <td style="border:1px solid;">5</td>
+        <td style="border:1px solid;">3</td>
+    </tr>
+</table>
+
+### Tasks Example
+
+<table>
+    <tr>
+        <th style="background-color:green; border:1px solid">Developer Tasks</th>
+        <th style="background-color:green; border:1px solid">QA Tasks</th>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Understanding Requirements</td>
+        <td style="border:1px solid">Understanding Requirements</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Design</td>
+        <td style="border:1px solid">Writing Test scenarios</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Coding</td>
+        <td style="border:1px solid">Writing Test cases</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Unit Testing</td>
+        <td style="border:1px solid">Test Case Reviews</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Integration Testing</td>
+        <td style="border:1px solid">Test Data Preparation</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Code Review</td>
+        <td style="border:1px solid">Test Environment Setup</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Bug Fixes</td>
+        <td style="border:1px solid">Test Execution</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Team Meetings</td>
+        <td style="border:1px solid">Re-Testing Bugs</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid">Any Other...</td>
+        <td style="border:1px solid">Team Meetings</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid"></td>
+        <td style="border:1px solid">Automation</td>
+    </tr>
+    <tr>
+        <td style="border:1px solid"></td>
+        <td style="border:1px solid">Any Other...</td>
+    </tr>
+</table>
