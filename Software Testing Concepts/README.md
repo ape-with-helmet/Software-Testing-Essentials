@@ -210,8 +210,8 @@ The speciality of V-Model is that testing is conducted in every phase of softwar
     </tr>
 </table>
 
-    Note:  
-    User Acceptance testing and System Testing come under Black box testing, and Integration testing and unit testing come under white box testing. All the documents must go through the following - Review, Walkthrough and Inspection.
+**Note:**  
+*User Acceptance testing and System Testing come under Black box testing, and Integration testing and unit testing come under white box testing. All the documents must go through the following - Review, Walkthrough and Inspection.*
 
 Testing the project related documents is called ***Static Testing***.  
 The unit tests & integration tests are conducted by the developer herself. The System testing is done solely by the Testers while the UAT is done by the testers and the users themselves.  
